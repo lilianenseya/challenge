@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  margin: auto;
+  margin-top: 200px;
+}
+.card {
+  width: 600px;
+  height: 550px;
+  border-radius: 3px;
+}
+.card-orange {
+  background-color: hsl(31, 77%, 52%);
+}
+.card-blue {
+  background-color: hsl(184, 100%, 22%);
+}
+.card-green {
+  background-color: hsl(179, 100%, 13%);
+}
+.titre{
+  margin: 38px;
+  font-size: 25px;
+  font-family: 'Big Shoulders Display', cursive;;
+  color: #ffff;
+}
+.logos {
+  margin: 30px;
+}
+.paragraphe {
+  width: 200px;
+  margin: 40px;
+  justify-content: center;
+  font-size: 18px;
+  font-family: 'Lexend Deca', sans-serif;  
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.btn {
+  width: 120px;
+  height: 40px;
+  margin: 20px;
+  font-size: 16px;
+  margin-top: 60px;
+  border-radius: 20px;
+  color: #ffff;
+}
+
+.btn-orange{
+   background-color: hsl(31, 77%, 52%);  
+   
+}
+.btn-blue {
+  background-color: hsl(184, 100%, 22%);  
+}
+.btn-green {
+  background-color: hsl(179, 100%, 13%);  
+}
+
+
+@media screen {
+}
